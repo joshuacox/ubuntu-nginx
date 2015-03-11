@@ -1,6 +1,6 @@
 FROM joshuacox/ubuntu:14.04
 MAINTAINER 'josh 'at' webhosting coop'
-ENV LAST_UPDATED 20141210
+ENV LAST_UPDATED 20150311
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv E1DF1F24 \
  && echo "deb http://ppa.launchpad.net/git-core/ppa/ubuntu trusty main" >> /etc/apt/sources.list \
  && apt-key adv --keyserver keyserver.ubuntu.com --recv C3173AA6 \
